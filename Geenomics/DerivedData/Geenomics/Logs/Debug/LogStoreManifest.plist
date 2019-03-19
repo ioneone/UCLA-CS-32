@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>059640D8-160E-494E-B741-E4608B4BCFD0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>059640D8-160E-494E-B741-E4608B4BCFD0.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573859632.03723598</real>
+			<key>timeStoppedRecording</key>
+			<real>573859633.45614505</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>059640D8-160E-494E-B741-E4608B4BCFD0</string>
+		</dict>
+		<key>0FF5C7B4-5D08-4EA0-A423-836C89A17714</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0FF5C7B4-5D08-4EA0-A423-836C89A17714.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573856645.99758005</real>
+			<key>timeStoppedRecording</key>
+			<real>573856647.37275398</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>0FF5C7B4-5D08-4EA0-A423-836C89A17714</string>
+		</dict>
+		<key>25FC6A0C-F585-4B35-8993-B03312E9AF49</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>25FC6A0C-F585-4B35-8993-B03312E9AF49.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573859663.49272704</real>
+			<key>timeStoppedRecording</key>
+			<real>573859664.91814804</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>25FC6A0C-F585-4B35-8993-B03312E9AF49</string>
+		</dict>
+		<key>2A5EF377-3F08-4F22-9A66-03BDB36EDEB5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2A5EF377-3F08-4F22-9A66-03BDB36EDEB5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573848181.01542199</real>
+			<key>timeStoppedRecording</key>
+			<real>573848182.31486404</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>2A5EF377-3F08-4F22-9A66-03BDB36EDEB5</string>
+		</dict>
+		<key>2AEF48B0-3872-4448-8EFD-A5B2E15FCF68</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2AEF48B0-3872-4448-8EFD-A5B2E15FCF68.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573856652.03284001</real>
+			<key>timeStoppedRecording</key>
+			<real>573856653.45179904</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>2AEF48B0-3872-4448-8EFD-A5B2E15FCF68</string>
+		</dict>
+		<key>2E1EA72F-E6B4-428F-8EF2-F028CCF445D7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2E1EA72F-E6B4-428F-8EF2-F028CCF445D7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573855914.40727305</real>
+			<key>timeStoppedRecording</key>
+			<real>573855915.99016702</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>2E1EA72F-E6B4-428F-8EF2-F028CCF445D7</string>
+		</dict>
+		<key>2E64D008-2662-416B-A79C-A8E43CFD86DC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2E64D008-2662-416B-A79C-A8E43CFD86DC.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573848154.41808701</real>
+			<key>timeStoppedRecording</key>
+			<real>573848163.63408697</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>2E64D008-2662-416B-A79C-A8E43CFD86DC</string>
+		</dict>
+		<key>30FE6D5E-32E2-4310-A45C-051C7E6A73A0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>30FE6D5E-32E2-4310-A45C-051C7E6A73A0.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573859860.08400202</real>
+			<key>timeStoppedRecording</key>
+			<real>573859861.77385998</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>30FE6D5E-32E2-4310-A45C-051C7E6A73A0</string>
+		</dict>
+		<key>3B767C27-D691-4F29-9D14-CB4BF2ABD0F4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3B767C27-D691-4F29-9D14-CB4BF2ABD0F4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573855792.09956598</real>
+			<key>timeStoppedRecording</key>
+			<real>573855793.70252204</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>3B767C27-D691-4F29-9D14-CB4BF2ABD0F4</string>
+		</dict>
+		<key>3B9CDFEC-96FC-44C6-9FBA-80FC35C7C561</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3B9CDFEC-96FC-44C6-9FBA-80FC35C7C561.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573856616.24176002</real>
+			<key>timeStoppedRecording</key>
+			<real>573856617.77180505</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>3B9CDFEC-96FC-44C6-9FBA-80FC35C7C561</string>
+		</dict>
+		<key>420A9C1F-71F8-485B-8660-038F23ABE146</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>420A9C1F-71F8-485B-8660-038F23ABE146.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573859648.56093204</real>
+			<key>timeStoppedRecording</key>
+			<real>573859649.95562303</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>420A9C1F-71F8-485B-8660-038F23ABE146</string>
+		</dict>
+		<key>4326624C-DF94-438E-9CB3-4E0E9CAF54A6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4326624C-DF94-438E-9CB3-4E0E9CAF54A6.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573859615.24279594</real>
+			<key>timeStoppedRecording</key>
+			<real>573859616.85482204</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>4326624C-DF94-438E-9CB3-4E0E9CAF54A6</string>
+		</dict>
+		<key>4A8FA213-3034-4A72-B4AE-A195AE061424</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4A8FA213-3034-4A72-B4AE-A195AE061424.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573848166.34076703</real>
+			<key>timeStoppedRecording</key>
+			<real>573848167.63171899</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>4A8FA213-3034-4A72-B4AE-A195AE061424</string>
+		</dict>
+		<key>4D37577F-6846-4B0E-8808-F069DC839D42</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4D37577F-6846-4B0E-8808-F069DC839D42.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573859866.35566795</real>
+			<key>timeStoppedRecording</key>
+			<real>573859867.73865402</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>4D37577F-6846-4B0E-8808-F069DC839D42</string>
+		</dict>
+		<key>68312762-A37C-414D-A99B-6DEE6481DB7D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>68312762-A37C-414D-A99B-6DEE6481DB7D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573860161.53183901</real>
+			<key>timeStoppedRecording</key>
+			<real>573860163.00427401</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>68312762-A37C-414D-A99B-6DEE6481DB7D</string>
+		</dict>
+		<key>6EDBB379-DFF8-4311-9AC9-A446F708204F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6EDBB379-DFF8-4311-9AC9-A446F708204F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573850479.64821398</real>
+			<key>timeStoppedRecording</key>
+			<real>573850481.36361301</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>6EDBB379-DFF8-4311-9AC9-A446F708204F</string>
+		</dict>
+		<key>7378CE42-7494-4D24-9A63-00CBE671B86B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7378CE42-7494-4D24-9A63-00CBE671B86B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573860156.54655302</real>
+			<key>timeStoppedRecording</key>
+			<real>573860157.98572302</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>7378CE42-7494-4D24-9A63-00CBE671B86B</string>
+		</dict>
+		<key>A6D4F5BE-933A-4950-9406-211F8BABCC15</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A6D4F5BE-933A-4950-9406-211F8BABCC15.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573860150.490888</real>
+			<key>timeStoppedRecording</key>
+			<real>573860152.09541905</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>A6D4F5BE-933A-4950-9406-211F8BABCC15</string>
+		</dict>
+		<key>A9AB51AB-7CA2-41D6-BC60-3AB133F6D109</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A9AB51AB-7CA2-41D6-BC60-3AB133F6D109.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573854784.86706495</real>
+			<key>timeStoppedRecording</key>
+			<real>573854786.45584297</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>A9AB51AB-7CA2-41D6-BC60-3AB133F6D109</string>
+		</dict>
+		<key>AFFD2B08-01F4-4D04-8FF9-71A78EC64B43</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>AFFD2B08-01F4-4D04-8FF9-71A78EC64B43.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573859876.28504205</real>
+			<key>timeStoppedRecording</key>
+			<real>573859877.85647404</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>AFFD2B08-01F4-4D04-8FF9-71A78EC64B43</string>
+		</dict>
+		<key>B484BA64-675D-4A3E-92F5-B4D4EF27566E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B484BA64-675D-4A3E-92F5-B4D4EF27566E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573859675.41679704</real>
+			<key>timeStoppedRecording</key>
+			<real>573859676.83437598</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>B484BA64-675D-4A3E-92F5-B4D4EF27566E</string>
+		</dict>
+		<key>BA112767-4B64-4ECA-88CF-541D120C692B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BA112767-4B64-4ECA-88CF-541D120C692B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573855939.76943898</real>
+			<key>timeStoppedRecording</key>
+			<real>573855941.22714496</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>BA112767-4B64-4ECA-88CF-541D120C692B</string>
+		</dict>
+		<key>CAFCF967-E426-4821-B4FE-543456498850</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>CAFCF967-E426-4821-B4FE-543456498850.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573851232.60012102</real>
+			<key>timeStoppedRecording</key>
+			<real>573851234.08986998</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>CAFCF967-E426-4821-B4FE-543456498850</string>
+		</dict>
+		<key>D0964A52-4486-4C84-9D8B-E4857F2AEA74</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D0964A52-4486-4C84-9D8B-E4857F2AEA74.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573856580.24288201</real>
+			<key>timeStoppedRecording</key>
+			<real>573856581.78180206</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>D0964A52-4486-4C84-9D8B-E4857F2AEA74</string>
+		</dict>
+		<key>D3F47C62-67CD-4655-A97E-F14FCDC29B17</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D3F47C62-67CD-4655-A97E-F14FCDC29B17.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573859670.38470495</real>
+			<key>timeStoppedRecording</key>
+			<real>573859671.83368397</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>D3F47C62-67CD-4655-A97E-F14FCDC29B17</string>
+		</dict>
+		<key>D528AEFB-8562-4A7B-A324-C80A16FD7292</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D528AEFB-8562-4A7B-A324-C80A16FD7292.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573859624.32375097</real>
+			<key>timeStoppedRecording</key>
+			<real>573859625.80431604</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>D528AEFB-8562-4A7B-A324-C80A16FD7292</string>
+		</dict>
+		<key>F0122BAE-57D2-4AC3-A234-79B5D745B231</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F0122BAE-57D2-4AC3-A234-79B5D745B231.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Geenomics project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Geenomics</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Geenomics</string>
+			<key>timeStartedRecording</key>
+			<real>573851559.13694704</real>
+			<key>timeStoppedRecording</key>
+			<real>573851560.85802603</real>
+			<key>title</key>
+			<string>Debug Geenomics</string>
+			<key>uniqueIdentifier</key>
+			<string>F0122BAE-57D2-4AC3-A234-79B5D745B231</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

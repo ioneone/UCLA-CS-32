@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B91F8BF2033F3F8003AFA78 /* GameWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B91F8B12033F3F7003AFA78 /* GameWorld.cpp */; };
+		4B91F8C02033F3F8003AFA78 /* StudentWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B91F8B22033F3F7003AFA78 /* StudentWorld.cpp */; };
+		4B91F8C12033F3F8003AFA78 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B91F8B42033F3F7003AFA78 /* main.cpp */; };
+		4B91F8C32033F3F8003AFA78 /* GameController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B91F8B82033F3F7003AFA78 /* GameController.cpp */; };
+		4B91F8C62034176C003AFA78 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B91F8C52034176C003AFA78 /* OpenGL.framework */; };
+		BF70032522212D6F004BDF9D /* Zombie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF70032422212D6F004BDF9D /* Zombie.cpp */; };
+		BF7003282221B853004BDF9D /* Goodie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF7003272221B853004BDF9D /* Goodie.cpp */; };
+		BF70032B2221B883004BDF9D /* VaccineGoodie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF70032A2221B883004BDF9D /* VaccineGoodie.cpp */; };
+		BF70032F2221B92A004BDF9D /* GasCanGoodie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF70032E2221B92A004BDF9D /* GasCanGoodie.cpp */; };
+		BF7003322221B951004BDF9D /* LandmineGoodie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF7003312221B951004BDF9D /* LandmineGoodie.cpp */; };
+		BF7003382223047E004BDF9D /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF7003372223047D004BDF9D /* Person.cpp */; };
+		BF70033E2223102A004BDF9D /* ImmortalEnvironment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF70033D2223102A004BDF9D /* ImmortalEnvironment.cpp */; };
+		BF70034622232265004BDF9D /* Environment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF70034522232265004BDF9D /* Environment.cpp */; };
+		BF70034C2223248F004BDF9D /* Creature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF70034B2223248F004BDF9D /* Creature.cpp */; };
+		BF70034F22239F20004BDF9D /* FlammableEnvironment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF70034E22239F1F004BDF9D /* FlammableEnvironment.cpp */; };
+		BF7003572223A6A9004BDF9D /* InflammableEnvironment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF7003562223A6A9004BDF9D /* InflammableEnvironment.cpp */; };
+		BF70035B2223A79A004BDF9D /* MortalEnvironment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF70035A2223A79A004BDF9D /* MortalEnvironment.cpp */; };
+		BF8D2909221A67F300628872 /* Penelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8D2908221A67F300628872 /* Penelope.cpp */; };
+		BF8D290C221A686F00628872 /* DumbZombie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8D290B221A686F00628872 /* DumbZombie.cpp */; };
+		BF8D290E221A688200628872 /* SmartZombie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8D290D221A688200628872 /* SmartZombie.cpp */; };
+		BF8D2912221A68C400628872 /* Citizen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8D2911221A68C400628872 /* Citizen.cpp */; };
+		BF8D2915221A68E600628872 /* Landmine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8D2914221A68E600628872 /* Landmine.cpp */; };
+		BF8D2918221A690400628872 /* Pit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8D2917221A690400628872 /* Pit.cpp */; };
+		BF8D291B221A693600628872 /* Flame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8D291A221A693600628872 /* Flame.cpp */; };
+		BF8D291E221A695D00628872 /* Vomit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8D291D221A695D00628872 /* Vomit.cpp */; };
+		BF8D292D221A6A6000628872 /* Exit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8D292C221A6A6000628872 /* Exit.cpp */; };
+		BF8D293F221A770600628872 /* Wall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8D293E221A770600628872 /* Wall.cpp */; };
+		BF8D2944221B1D0300628872 /* Actor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF8D2943221B1D0300628872 /* Actor.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B91F8A32033F260003AFA78 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4B375F4E2217ACC2008ECE4D /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		4B91F8A52033F260003AFA78 /* ZombieDash */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZombieDash; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B91F8AF2033F3F7003AFA78 /* GraphObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphObject.h; sourceTree = "<group>"; };
+		4B91F8B12033F3F7003AFA78 /* GameWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameWorld.cpp; sourceTree = "<group>"; };
+		4B91F8B22033F3F7003AFA78 /* StudentWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = StudentWorld.cpp; sourceTree = "<group>"; };
+		4B91F8B42033F3F7003AFA78 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4B91F8B52033F3F7003AFA78 /* GameConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConstants.h; sourceTree = "<group>"; };
+		4B91F8B82033F3F7003AFA78 /* GameController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameController.cpp; sourceTree = "<group>"; };
+		4B91F8BA2033F3F7003AFA78 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		4B91F8BB2033F3F7003AFA78 /* GameWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameWorld.h; sourceTree = "<group>"; };
+		4B91F8BC2033F3F7003AFA78 /* SpriteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteManager.h; sourceTree = "<group>"; };
+		4B91F8BD2033F3F8003AFA78 /* SoundFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundFX.h; sourceTree = "<group>"; };
+		4B91F8BE2033F3F8003AFA78 /* StudentWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentWorld.h; sourceTree = "<group>"; };
+		4B91F8C52034176C003AFA78 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		4B91F8C720341775003AFA78 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		BF70032422212D6F004BDF9D /* Zombie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Zombie.cpp; sourceTree = "<group>"; };
+		BF70032622212D7C004BDF9D /* Zombie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zombie.h; sourceTree = "<group>"; };
+		BF7003272221B853004BDF9D /* Goodie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Goodie.cpp; sourceTree = "<group>"; };
+		BF7003292221B864004BDF9D /* Goodie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Goodie.h; sourceTree = "<group>"; };
+		BF70032A2221B883004BDF9D /* VaccineGoodie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VaccineGoodie.cpp; sourceTree = "<group>"; };
+		BF70032D2221B8E7004BDF9D /* VaccineGoodie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VaccineGoodie.h; sourceTree = "<group>"; };
+		BF70032E2221B92A004BDF9D /* GasCanGoodie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GasCanGoodie.cpp; sourceTree = "<group>"; };
+		BF7003302221B93E004BDF9D /* GasCanGoodie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GasCanGoodie.h; sourceTree = "<group>"; };
+		BF7003312221B951004BDF9D /* LandmineGoodie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LandmineGoodie.cpp; sourceTree = "<group>"; };
+		BF7003332221B95E004BDF9D /* LandmineGoodie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandmineGoodie.h; sourceTree = "<group>"; };
+		BF7003372223047D004BDF9D /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		BF70033922230488004BDF9D /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BF70033D2223102A004BDF9D /* ImmortalEnvironment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ImmortalEnvironment.cpp; sourceTree = "<group>"; };
+		BF70033F22231036004BDF9D /* ImmortalEnvironment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImmortalEnvironment.h; sourceTree = "<group>"; };
+		BF70034522232265004BDF9D /* Environment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Environment.cpp; sourceTree = "<group>"; };
+		BF70034722232272004BDF9D /* Environment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Environment.h; sourceTree = "<group>"; };
+		BF70034B2223248F004BDF9D /* Creature.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Creature.cpp; sourceTree = "<group>"; };
+		BF70034D2223249C004BDF9D /* Creature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Creature.h; sourceTree = "<group>"; };
+		BF70034E22239F1F004BDF9D /* FlammableEnvironment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FlammableEnvironment.cpp; sourceTree = "<group>"; };
+		BF70035022239F31004BDF9D /* FlammableEnvironment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlammableEnvironment.h; sourceTree = "<group>"; };
+		BF7003562223A6A9004BDF9D /* InflammableEnvironment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InflammableEnvironment.cpp; sourceTree = "<group>"; };
+		BF7003592223A6D2004BDF9D /* InflammableEnvironment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InflammableEnvironment.h; sourceTree = "<group>"; };
+		BF70035A2223A79A004BDF9D /* MortalEnvironment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MortalEnvironment.cpp; sourceTree = "<group>"; };
+		BF70035C2223A7B7004BDF9D /* MortalEnvironment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MortalEnvironment.h; sourceTree = "<group>"; };
+		BF8D2908221A67F300628872 /* Penelope.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Penelope.cpp; sourceTree = "<group>"; };
+		BF8D290A221A680300628872 /* Penelope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Penelope.h; sourceTree = "<group>"; };
+		BF8D290B221A686F00628872 /* DumbZombie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DumbZombie.cpp; sourceTree = "<group>"; };
+		BF8D290D221A688200628872 /* SmartZombie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SmartZombie.cpp; sourceTree = "<group>"; };
+		BF8D290F221A689200628872 /* DumbZombie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DumbZombie.h; sourceTree = "<group>"; };
+		BF8D2910221A68A500628872 /* SmartZombie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartZombie.h; sourceTree = "<group>"; };
+		BF8D2911221A68C400628872 /* Citizen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Citizen.cpp; sourceTree = "<group>"; };
+		BF8D2913221A68D400628872 /* Citizen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Citizen.h; sourceTree = "<group>"; };
+		BF8D2914221A68E600628872 /* Landmine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Landmine.cpp; sourceTree = "<group>"; };
+		BF8D2916221A68F400628872 /* Landmine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Landmine.h; sourceTree = "<group>"; };
+		BF8D2917221A690400628872 /* Pit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pit.cpp; sourceTree = "<group>"; };
+		BF8D2919221A690F00628872 /* Pit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pit.h; sourceTree = "<group>"; };
+		BF8D291A221A693600628872 /* Flame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Flame.cpp; sourceTree = "<group>"; };
+		BF8D291C221A694300628872 /* Flame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flame.h; sourceTree = "<group>"; };
+		BF8D291D221A695D00628872 /* Vomit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vomit.cpp; sourceTree = "<group>"; };
+		BF8D291F221A696900628872 /* Vomit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vomit.h; sourceTree = "<group>"; };
+		BF8D292B221A6A4B00628872 /* Wall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wall.h; sourceTree = "<group>"; };
+		BF8D292C221A6A6000628872 /* Exit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Exit.cpp; sourceTree = "<group>"; };
+		BF8D292E221A6A6D00628872 /* Exit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exit.h; sourceTree = "<group>"; };
+		BF8D293E221A770600628872 /* Wall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wall.cpp; sourceTree = "<group>"; };
+		BF8D2942221A79CA00628872 /* Actor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Actor.h; sourceTree = "<group>"; };
+		BF8D2943221B1D0300628872 /* Actor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Actor.cpp; sourceTree = "<group>"; };
+		BF8D2947221CABED00628872 /* ActorConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActorConstants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B91F8A22033F260003AFA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B91F8C62034176C003AFA78 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B91F89C2033F260003AFA78 = {
+			isa = PBXGroup;
+			children = (
+				4B91F8A72033F260003AFA78 /* ZombieDash */,
+				4B91F8A62033F260003AFA78 /* Products */,
+				4B91F8C42034176C003AFA78 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B91F8A62033F260003AFA78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B91F8A52033F260003AFA78 /* ZombieDash */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B91F8A72033F260003AFA78 /* ZombieDash */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D2937221A72E900628872 /* Actors */,
+				BF8D293A221A733F00628872 /* Controller */,
+				BF8D293B221A734E00628872 /* World */,
+				BF8D293D221A736A00628872 /* Supporting  Files */,
+				4B91F8B42033F3F7003AFA78 /* main.cpp */,
+			);
+			path = ZombieDash;
+			sourceTree = "<group>";
+		};
+		4B91F8C42034176C003AFA78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B91F8C720341775003AFA78 /* GLUT.framework */,
+				4B91F8C52034176C003AFA78 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF7003342221B989004BDF9D /* Zombies */ = {
+			isa = PBXGroup;
+			children = (
+				BF70032422212D6F004BDF9D /* Zombie.cpp */,
+				BF70032622212D7C004BDF9D /* Zombie.h */,
+				BF7003622223AA81004BDF9D /* DumbZombie */,
+				BF7003632223AA88004BDF9D /* SmartZombie */,
+			);
+			name = Zombies;
+			sourceTree = "<group>";
+		};
+		BF7003352221B992004BDF9D /* Goodies */ = {
+			isa = PBXGroup;
+			children = (
+				BF7003272221B853004BDF9D /* Goodie.cpp */,
+				BF7003292221B864004BDF9D /* Goodie.h */,
+				BF7003662223B1A3004BDF9D /* VaccineGoodie */,
+				BF7003672223B1AC004BDF9D /* GasCanGoodie */,
+				BF7003682223B1B2004BDF9D /* LandmineGoodie */,
+			);
+			name = Goodies;
+			sourceTree = "<group>";
+		};
+		BF70033622230461004BDF9D /* People */ = {
+			isa = PBXGroup;
+			children = (
+				BF7003372223047D004BDF9D /* Person.cpp */,
+				BF70033922230488004BDF9D /* Person.h */,
+				BF7003642223AA8D004BDF9D /* Penelope */,
+				BF7003652223AA94004BDF9D /* Citizen */,
+			);
+			name = People;
+			sourceTree = "<group>";
+		};
+		BF700340222310C2004BDF9D /* Immortals */ = {
+			isa = PBXGroup;
+			children = (
+				BF70033D2223102A004BDF9D /* ImmortalEnvironment.cpp */,
+				BF70033F22231036004BDF9D /* ImmortalEnvironment.h */,
+				BF70035F2223AA61004BDF9D /* Wall */,
+				BF7003602223AA66004BDF9D /* Exit */,
+				BF7003612223AA6C004BDF9D /* Pit */,
+			);
+			name = Immortals;
+			sourceTree = "<group>";
+		};
+		BF70034122232166004BDF9D /* Creatures */ = {
+			isa = PBXGroup;
+			children = (
+				BF70034B2223248F004BDF9D /* Creature.cpp */,
+				BF70034D2223249C004BDF9D /* Creature.h */,
+				BF7003342221B989004BDF9D /* Zombies */,
+				BF70033622230461004BDF9D /* People */,
+			);
+			name = Creatures;
+			sourceTree = "<group>";
+		};
+		BF70034222232174004BDF9D /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				BF70034522232265004BDF9D /* Environment.cpp */,
+				BF70034722232272004BDF9D /* Environment.h */,
+				BF700340222310C2004BDF9D /* Immortals */,
+				BF7003552223A646004BDF9D /* mortals */,
+			);
+			name = Environments;
+			sourceTree = "<group>";
+		};
+		BF70034322232203004BDF9D /* Flammables */ = {
+			isa = PBXGroup;
+			children = (
+				BF70034E22239F1F004BDF9D /* FlammableEnvironment.cpp */,
+				BF70035022239F31004BDF9D /* FlammableEnvironment.h */,
+				BF70035122239F3A004BDF9D /* Landmine */,
+				BF7003352221B992004BDF9D /* Goodies */,
+			);
+			name = Flammables;
+			sourceTree = "<group>";
+		};
+		BF7003442223220A004BDF9D /* Inflammables */ = {
+			isa = PBXGroup;
+			children = (
+				BF7003562223A6A9004BDF9D /* InflammableEnvironment.cpp */,
+				BF7003592223A6D2004BDF9D /* InflammableEnvironment.h */,
+				BF70035D2223AA32004BDF9D /* Flame */,
+				BF70035E2223AA39004BDF9D /* Vomit */,
+			);
+			name = Inflammables;
+			sourceTree = "<group>";
+		};
+		BF70035122239F3A004BDF9D /* Landmine */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D2914221A68E600628872 /* Landmine.cpp */,
+				BF8D2916221A68F400628872 /* Landmine.h */,
+			);
+			name = Landmine;
+			sourceTree = "<group>";
+		};
+		BF7003552223A646004BDF9D /* mortals */ = {
+			isa = PBXGroup;
+			children = (
+				BF70035A2223A79A004BDF9D /* MortalEnvironment.cpp */,
+				BF70035C2223A7B7004BDF9D /* MortalEnvironment.h */,
+				BF7003442223220A004BDF9D /* Inflammables */,
+				BF70034322232203004BDF9D /* Flammables */,
+			);
+			name = mortals;
+			sourceTree = "<group>";
+		};
+		BF70035D2223AA32004BDF9D /* Flame */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D291A221A693600628872 /* Flame.cpp */,
+				BF8D291C221A694300628872 /* Flame.h */,
+			);
+			name = Flame;
+			sourceTree = "<group>";
+		};
+		BF70035E2223AA39004BDF9D /* Vomit */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D291D221A695D00628872 /* Vomit.cpp */,
+				BF8D291F221A696900628872 /* Vomit.h */,
+			);
+			name = Vomit;
+			sourceTree = "<group>";
+		};
+		BF70035F2223AA61004BDF9D /* Wall */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D293E221A770600628872 /* Wall.cpp */,
+				BF8D292B221A6A4B00628872 /* Wall.h */,
+			);
+			name = Wall;
+			sourceTree = "<group>";
+		};
+		BF7003602223AA66004BDF9D /* Exit */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D292C221A6A6000628872 /* Exit.cpp */,
+				BF8D292E221A6A6D00628872 /* Exit.h */,
+			);
+			name = Exit;
+			sourceTree = "<group>";
+		};
+		BF7003612223AA6C004BDF9D /* Pit */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D2917221A690400628872 /* Pit.cpp */,
+				BF8D2919221A690F00628872 /* Pit.h */,
+			);
+			name = Pit;
+			sourceTree = "<group>";
+		};
+		BF7003622223AA81004BDF9D /* DumbZombie */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D290B221A686F00628872 /* DumbZombie.cpp */,
+				BF8D290F221A689200628872 /* DumbZombie.h */,
+			);
+			name = DumbZombie;
+			sourceTree = "<group>";
+		};
+		BF7003632223AA88004BDF9D /* SmartZombie */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D290D221A688200628872 /* SmartZombie.cpp */,
+				BF8D2910221A68A500628872 /* SmartZombie.h */,
+			);
+			name = SmartZombie;
+			sourceTree = "<group>";
+		};
+		BF7003642223AA8D004BDF9D /* Penelope */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D2908221A67F300628872 /* Penelope.cpp */,
+				BF8D290A221A680300628872 /* Penelope.h */,
+			);
+			name = Penelope;
+			sourceTree = "<group>";
+		};
+		BF7003652223AA94004BDF9D /* Citizen */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D2911221A68C400628872 /* Citizen.cpp */,
+				BF8D2913221A68D400628872 /* Citizen.h */,
+			);
+			name = Citizen;
+			sourceTree = "<group>";
+		};
+		BF7003662223B1A3004BDF9D /* VaccineGoodie */ = {
+			isa = PBXGroup;
+			children = (
+				BF70032A2221B883004BDF9D /* VaccineGoodie.cpp */,
+				BF70032D2221B8E7004BDF9D /* VaccineGoodie.h */,
+			);
+			name = VaccineGoodie;
+			sourceTree = "<group>";
+		};
+		BF7003672223B1AC004BDF9D /* GasCanGoodie */ = {
+			isa = PBXGroup;
+			children = (
+				BF70032E2221B92A004BDF9D /* GasCanGoodie.cpp */,
+				BF7003302221B93E004BDF9D /* GasCanGoodie.h */,
+			);
+			name = GasCanGoodie;
+			sourceTree = "<group>";
+		};
+		BF7003682223B1B2004BDF9D /* LandmineGoodie */ = {
+			isa = PBXGroup;
+			children = (
+				BF7003312221B951004BDF9D /* LandmineGoodie.cpp */,
+				BF7003332221B95E004BDF9D /* LandmineGoodie.h */,
+			);
+			name = LandmineGoodie;
+			sourceTree = "<group>";
+		};
+		BF8D2937221A72E900628872 /* Actors */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D2943221B1D0300628872 /* Actor.cpp */,
+				BF8D2942221A79CA00628872 /* Actor.h */,
+				BF70034222232174004BDF9D /* Environments */,
+				BF70034122232166004BDF9D /* Creatures */,
+			);
+			name = Actors;
+			sourceTree = "<group>";
+		};
+		BF8D293A221A733F00628872 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B91F8B82033F3F7003AFA78 /* GameController.cpp */,
+				4B91F8BA2033F3F7003AFA78 /* GameController.h */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BF8D293B221A734E00628872 /* World */ = {
+			isa = PBXGroup;
+			children = (
+				4B91F8B12033F3F7003AFA78 /* GameWorld.cpp */,
+				4B91F8BB2033F3F7003AFA78 /* GameWorld.h */,
+				4B91F8B22033F3F7003AFA78 /* StudentWorld.cpp */,
+				4B91F8BE2033F3F8003AFA78 /* StudentWorld.h */,
+			);
+			name = World;
+			sourceTree = "<group>";
+		};
+		BF8D293D221A736A00628872 /* Supporting  Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B91F8AF2033F3F7003AFA78 /* GraphObject.h */,
+				4B91F8BD2033F3F8003AFA78 /* SoundFX.h */,
+				4B91F8B52033F3F7003AFA78 /* GameConstants.h */,
+				BF8D2947221CABED00628872 /* ActorConstants.h */,
+				4B375F4E2217ACC2008ECE4D /* Level.h */,
+				4B91F8BC2033F3F7003AFA78 /* SpriteManager.h */,
+			);
+			name = "Supporting  Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B91F8A42033F260003AFA78 /* ZombieDash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B91F8AC2033F260003AFA78 /* Build configuration list for PBXNativeTarget "ZombieDash" */;
+			buildPhases = (
+				4B91F8A12033F260003AFA78 /* Sources */,
+				4B91F8A22033F260003AFA78 /* Frameworks */,
+				4B91F8A32033F260003AFA78 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZombieDash;
+			productName = ZombieDash;
+			productReference = 4B91F8A52033F260003AFA78 /* ZombieDash */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B91F89D2033F260003AFA78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "David Smallberg";
+				TargetAttributes = {
+					4B91F8A42033F260003AFA78 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4B91F8A02033F260003AFA78 /* Build configuration list for PBXProject "ZombieDash" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B91F89C2033F260003AFA78;
+			productRefGroup = 4B91F8A62033F260003AFA78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B91F8A42033F260003AFA78 /* ZombieDash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B91F8A12033F260003AFA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF70032B2221B883004BDF9D /* VaccineGoodie.cpp in Sources */,
+				BF70032F2221B92A004BDF9D /* GasCanGoodie.cpp in Sources */,
+				4B91F8C32033F3F8003AFA78 /* GameController.cpp in Sources */,
+				BF8D290C221A686F00628872 /* DumbZombie.cpp in Sources */,
+				BF7003282221B853004BDF9D /* Goodie.cpp in Sources */,
+				BF70032522212D6F004BDF9D /* Zombie.cpp in Sources */,
+				BF7003572223A6A9004BDF9D /* InflammableEnvironment.cpp in Sources */,
+				4B91F8C02033F3F8003AFA78 /* StudentWorld.cpp in Sources */,
+				4B91F8BF2033F3F8003AFA78 /* GameWorld.cpp in Sources */,
+				BF8D2909221A67F300628872 /* Penelope.cpp in Sources */,
+				BF8D290E221A688200628872 /* SmartZombie.cpp in Sources */,
+				BF70033E2223102A004BDF9D /* ImmortalEnvironment.cpp in Sources */,
+				BF8D291E221A695D00628872 /* Vomit.cpp in Sources */,
+				4B91F8C12033F3F8003AFA78 /* main.cpp in Sources */,
+				BF70034F22239F20004BDF9D /* FlammableEnvironment.cpp in Sources */,
+				BF8D2944221B1D0300628872 /* Actor.cpp in Sources */,
+				BF70035B2223A79A004BDF9D /* MortalEnvironment.cpp in Sources */,
+				BF70034C2223248F004BDF9D /* Creature.cpp in Sources */,
+				BF8D293F221A770600628872 /* Wall.cpp in Sources */,
+				BF7003322221B951004BDF9D /* LandmineGoodie.cpp in Sources */,
+				BF8D292D221A6A6000628872 /* Exit.cpp in Sources */,
+				BF7003382223047E004BDF9D /* Person.cpp in Sources */,
+				BF8D291B221A693600628872 /* Flame.cpp in Sources */,
+				BF8D2915221A68E600628872 /* Landmine.cpp in Sources */,
+				BF8D2918221A690400628872 /* Pit.cpp in Sources */,
+				BF70034622232265004BDF9D /* Environment.cpp in Sources */,
+				BF8D2912221A68C400628872 /* Citizen.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B91F8AA2033F260003AFA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4B91F8AB2033F260003AFA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4B91F8AD2033F260003AFA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/Cellar/freeglut/3.0.0/include/GL;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/Cellar/freeglut/3.0.0/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				"OTHER_LDFLAGS[arch=*]" = "-lglut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B91F8AE2033F260003AFA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/Cellar/freeglut/3.0.0/include/GL;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/Cellar/freeglut/3.0.0/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				"OTHER_LDFLAGS[arch=*]" = "-lglut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B91F8A02033F260003AFA78 /* Build configuration list for PBXProject "ZombieDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B91F8AA2033F260003AFA78 /* Debug */,
+				4B91F8AB2033F260003AFA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B91F8AC2033F260003AFA78 /* Build configuration list for PBXNativeTarget "ZombieDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B91F8AD2033F260003AFA78 /* Debug */,
+				4B91F8AE2033F260003AFA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B91F89D2033F260003AFA78 /* Project object */;
+}

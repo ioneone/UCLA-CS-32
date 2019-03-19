@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFC8FF442233B32800FA3CA7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFC8FF432233B32800FA3CA7 /* main.cpp */; };
+		BFC8FF6A223469C200FA3CA7 /* Genome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFC8FF67223469C200FA3CA7 /* Genome.cpp */; };
+		BFC8FF6B223469C200FA3CA7 /* GenomeMatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFC8FF68223469C200FA3CA7 /* GenomeMatcher.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFC8FF3E2233B32800FA3CA7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BFC8FF402233B32800FA3CA7 /* Geenomics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Geenomics; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC8FF432233B32800FA3CA7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BFC8FF66223469C200FA3CA7 /* Trie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trie.h; sourceTree = "<group>"; };
+		BFC8FF67223469C200FA3CA7 /* Genome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Genome.cpp; sourceTree = "<group>"; };
+		BFC8FF68223469C200FA3CA7 /* GenomeMatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GenomeMatcher.cpp; sourceTree = "<group>"; };
+		BFC8FF69223469C200FA3CA7 /* provided.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = provided.h; sourceTree = "<group>"; };
+		BFC8FF6C22348B4B00FA3CA7 /* Halorubrum_californiense.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Halorubrum_californiense.txt; sourceTree = "<group>"; };
+		BFC8FF6D22348B4B00FA3CA7 /* Halorientalis_persicus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Halorientalis_persicus.txt; sourceTree = "<group>"; };
+		BFC8FF6E22348B4B00FA3CA7 /* Halobacterium_jilantaiense.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Halobacterium_jilantaiense.txt; sourceTree = "<group>"; };
+		BFC8FF6F22348B4B00FA3CA7 /* Halorientalis_regularis.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Halorientalis_regularis.txt; sourceTree = "<group>"; };
+		BFC8FF7022348B4B00FA3CA7 /* Ferroplasma_acidarmanus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ferroplasma_acidarmanus.txt; sourceTree = "<group>"; };
+		BFC8FF7122348B4B00FA3CA7 /* Ferroglobus_placidus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ferroglobus_placidus.txt; sourceTree = "<group>"; };
+		BFC8FF7222348B4B00FA3CA7 /* Desulfurococcus_mucosus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Desulfurococcus_mucosus.txt; sourceTree = "<group>"; };
+		BFC8FF7322348B4B00FA3CA7 /* Halorubrum_chaoviator.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Halorubrum_chaoviator.txt; sourceTree = "<group>"; };
+		BFC8FF742235820600FA3CA7 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC8FF3D2233B32800FA3CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFC8FF372233B32800FA3CA7 = {
+			isa = PBXGroup;
+			children = (
+				BFC8FF422233B32800FA3CA7 /* Geenomics */,
+				BFC8FF412233B32800FA3CA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC8FF412233B32800FA3CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8FF402233B32800FA3CA7 /* Geenomics */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC8FF422233B32800FA3CA7 /* Geenomics */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8FF67223469C200FA3CA7 /* Genome.cpp */,
+				BFC8FF68223469C200FA3CA7 /* GenomeMatcher.cpp */,
+				BFC8FF69223469C200FA3CA7 /* provided.h */,
+				BFC8FF66223469C200FA3CA7 /* Trie.h */,
+				BFC8FF432233B32800FA3CA7 /* main.cpp */,
+				BFC8FF7222348B4B00FA3CA7 /* Desulfurococcus_mucosus.txt */,
+				BFC8FF7122348B4B00FA3CA7 /* Ferroglobus_placidus.txt */,
+				BFC8FF7022348B4B00FA3CA7 /* Ferroplasma_acidarmanus.txt */,
+				BFC8FF6E22348B4B00FA3CA7 /* Halobacterium_jilantaiense.txt */,
+				BFC8FF6D22348B4B00FA3CA7 /* Halorientalis_persicus.txt */,
+				BFC8FF6F22348B4B00FA3CA7 /* Halorientalis_regularis.txt */,
+				BFC8FF6C22348B4B00FA3CA7 /* Halorubrum_californiense.txt */,
+				BFC8FF7322348B4B00FA3CA7 /* Halorubrum_chaoviator.txt */,
+				BFC8FF742235820600FA3CA7 /* test.txt */,
+			);
+			path = Geenomics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFC8FF3F2233B32800FA3CA7 /* Geenomics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC8FF472233B32800FA3CA7 /* Build configuration list for PBXNativeTarget "Geenomics" */;
+			buildPhases = (
+				BFC8FF3C2233B32800FA3CA7 /* Sources */,
+				BFC8FF3D2233B32800FA3CA7 /* Frameworks */,
+				BFC8FF3E2233B32800FA3CA7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Geenomics;
+			productName = Geenomics;
+			productReference = BFC8FF402233B32800FA3CA7 /* Geenomics */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC8FF382233B32800FA3CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ioneone;
+				TargetAttributes = {
+					BFC8FF3F2233B32800FA3CA7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = BFC8FF3B2233B32800FA3CA7 /* Build configuration list for PBXProject "Geenomics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFC8FF372233B32800FA3CA7;
+			productRefGroup = BFC8FF412233B32800FA3CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC8FF3F2233B32800FA3CA7 /* Geenomics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC8FF3C2233B32800FA3CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC8FF6A223469C200FA3CA7 /* Genome.cpp in Sources */,
+				BFC8FF6B223469C200FA3CA7 /* GenomeMatcher.cpp in Sources */,
+				BFC8FF442233B32800FA3CA7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BFC8FF452233B32800FA3CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BFC8FF462233B32800FA3CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BFC8FF482233B32800FA3CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96U956B4G2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFC8FF492233B32800FA3CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96U956B4G2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFC8FF3B2233B32800FA3CA7 /* Build configuration list for PBXProject "Geenomics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC8FF452233B32800FA3CA7 /* Debug */,
+				BFC8FF462233B32800FA3CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC8FF472233B32800FA3CA7 /* Build configuration list for PBXNativeTarget "Geenomics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC8FF482233B32800FA3CA7 /* Debug */,
+				BFC8FF492233B32800FA3CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC8FF382233B32800FA3CA7 /* Project object */;
+}
